@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="102px" height="307px" viewBox="0 0 102 307" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Line + ballon 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-9" sketch:type="MSArtboardGroup" transform="translate(-399.000000, -49.000000)">
+            <g id="The-shabang-Copy" sketch:type="MSLayerGroup" transform="translate(128.000000, 18.000000)">
+                <g id="Line-+-ballon-3" transform="translate(268.000000, 23.000000)" sketch:type="MSShapeGroup">
+                    <path d="M47,123 L5,313" id="Line" stroke="#E3E3E3" stroke-width="2" stroke-linecap="square"></path>
+                    <g id="ballon-3" transform="translate(56.500000, 69.000000) rotate(11.000000) translate(-56.500000, -69.000000) translate(11.000000, 8.000000)">
+                        <path d="M46.1579038,0.361234841 C64.550045,0.361234842 90.3739904,8.95426591 90.3739915,47.7512727 C90.3739927,86.5482795 57.2647428,112.660225 46.1579055,112.660218 C35.0510681,112.660212 0.539064961,85.0770097 0.53906436,47.7512744 C0.539063759,10.4255392 27.7657627,0.36123484 46.1579038,0.361234841 Z" id="Path-25-Copy-2" fill="#6C5D7C"></path>
+                        <path d="M46.1063126,113.74675 C46.1063126,113.74675 38.9725569,117.849652 38.9725569,121.566418 C40.9575701,121.952554 51.0757018,121.952554 53.1473588,121.952554 C53.1473584,117.124475 46.1063126,113.74675 46.1063126,113.74675 Z" id="Path-27-Copy-2" fill="#6C5D7C"></path>
+                        <path d="M67.1576679,15.098693 C67.1576679,15.098693 88.6552364,27.0900867 80.1103266,65.9236285 C77.6539662,77.086903 76.9418276,68.8507468 76.9418276,68.8507468 L67.1576679,15.098693 Z" id="Path-26-Copy-2" fill="#5D4F6C"></path>
+                        <rect id="Rectangle-5" fill="#E3E3E3" x="43.6109934" y="112.261748" width="5.35294118" height="3.06918239" rx="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

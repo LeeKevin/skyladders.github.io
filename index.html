@@ -1,128 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Skyladders Inc</title>
+    <title>Skyladders</title>
+    <meta name="description" content="We're making modern avionics systems better.">
+    <meta name="author" content="Skyladders">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css?v=1.0">
+</head>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-
-    <!-- Other CSS -->
-    <link rel="stylesheet" href="css/custom.css" type="text/css"/>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <!-- <body> -->
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <!-- <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, Kevin!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      </div>
-    </div> -->
-
-
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Skyladders</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<body>
+<div class="content">
+    <h1>Skyladders</h1>
+    <small>
+        A passionate team making modern avionics systems
+        <div class="sliding">
+            <span> faster.</span>
+            <span> cheaper.</span>
+            <span> friendlier.</span>
+            <span> easier.</span>
+            <span> better.</span>
         </div>
-        <!-- /.container -->
-    </nav>
+    </small>
+    <a class="contact" href="mailto:info@skyladders.ca">
+        <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-453-185-242 295q-18 23-49 23-13 0-22-4-19-7-30.5-23.5t-11.5-36.5v-349l864-1059-1069 925-395-162q-37-14-40-55-2-40 32-59l1664-960q15-9 32-9 20 0 36 11z"/>
+        </svg>
+        Contact
+    </a>
 
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1><br>Who We Are<br></h1>
-                    <p><br>We're a small team of passionate individuals building modern avionics systems.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="stealth">
+        <img class="b1-image" src="images/balloon1.svg" width="65">
+        <img class="b2-image" src="images/balloon2.svg" width="65">
+        <img class="b3-image" src="images/balloon3.svg" width="71">
+        <img class="stealth-image" src="images/stealth.svg" width="251"
+             style="opacity: 1; transform: scale(1); transition: opacity 300ms, transform 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);">
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <!-- <div class="dark_layer"> -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1><br>Vision<br></h1>
-                        <p><br>With the recent advances in mobile technology, we believe the time is ripe to redesign decades old equipment. We can build it better, cheaper, and friendlier.</p>
-                    </div>
-                </div>
-            <!-- </div> -->
-        </div>
-    </section>
+        <div class="downlow">Keep it on the down-low! We're in stealth mode.</div>
+    </div>
+</div>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
+    ga('create', 'UA-11552876-2', 'auto');
+    ga('send', 'pageview');
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1><br>Contact<br></h1>
-                    <p><br><a href="mailto:info@skyladders.ca">info@skyladders.ca</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-    <!-- Google analytics script-->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-11552876-2', 'auto');
-        ga('send', 'pageview');
-
-      </script>
-  </body>
+</script>
+</body>
 </html>

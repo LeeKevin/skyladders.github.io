@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="91px" height="337px" viewBox="0 0 91 337" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Line + balloon 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-9" sketch:type="MSArtboardGroup" transform="translate(-356.000000, -18.000000)">
+            <g id="The-shabang-Copy" sketch:type="MSLayerGroup" transform="translate(128.000000, 18.000000)">
+                <g id="Line-+-balloon-2" transform="translate(228.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M46.4159884,122.473762 L43.4439339,335.640504" id="Line" stroke="#E3E3E3" stroke-width="2" stroke-linecap="square"></path>
+                    <g id="balloon-2">
+                        <path d="M46.2122668,0.266520037 C64.8151458,0.266520038 90.9349829,8.85139455 90.9349841,47.6115749 C90.9349853,86.3717553 57.4463684,112.458915 46.2122685,112.458909 C34.9781686,112.458902 0.0707256474,84.9018821 0.0707250396,47.6115767 C0.0707244318,10.3212712 27.6093879,0.266520036 46.2122668,0.266520037 Z" id="Path-25" fill="#FEB293"></path>
+                        <path d="M67.298267,14.9960955 C67.298267,14.9960955 89.1723046,26.9801785 80.4777549,65.7900446 C77.9783783,76.9465132 77.2537686,68.7153783 77.2537686,68.7153783 L67.298267,14.9960955 Z" id="Path-26" fill="#EEA284"></path>
+                        <path d="M46.1155915,113.637567 C46.1155915,113.637567 38.9113731,117.734421 38.9113731,121.445708 C40.915993,121.831275 51.1340651,121.831275 53.2261846,121.831275 C53.2261842,117.010313 46.1155915,113.637567 46.1155915,113.637567 Z" id="Path-27" fill="#FEB293"></path>
+                        <path d="M43.6971774,113.457761 C43.7120448,112.621271 44.4077349,111.954881 45.2708959,111.969677 L47.5751189,112.009177 C48.4293923,112.023821 49.1099689,112.70797 49.0949978,113.550292 L49.0949978,113.550292 C49.0801304,114.386782 48.3844403,115.053173 47.5212793,115.038376 L45.2170563,114.998876 C44.362783,114.984232 43.6822064,114.300083 43.6971774,113.457761 L43.6971774,113.457761 L43.6971774,113.457761 Z" id="Rectangle-5-Copy" fill="#E3E3E3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
