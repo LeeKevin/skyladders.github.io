@@ -68,6 +68,19 @@
         for (var i = 0; i < buttons.length; i++) {
             buttons[i].addEventListener('click', function (event) {
                 event.currentTarget.classList.toggle('hover');
+                var buttons = document.getElementsByClassName("button");
+                for (var i = 0; i < buttons.length; i++) {
+                    if (buttons[i].isSameNode(event.currentTarget)) continue;
+                    buttons[i].classList.remove('hover');
+                }
+            });
+
+            buttons[i].addEventListener('mouseover', function () {
+                var buttons = document.getElementsByClassName("button");
+                for (var i = 0; i < buttons.length; i++) {
+                    if (buttons[i].isSameNode(event.currentTarget)) continue;
+                    buttons[i].classList.remove('hover');
+                }
             });
         }
     };
