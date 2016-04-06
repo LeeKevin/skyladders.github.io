@@ -16,10 +16,11 @@
 
 <div class="content">
     <img src="images/plane.png" width="100">
+
     <h2>Climb higher</h2>
     <small>
         We're a passionate team making modern avionics systems
-        <div class="sliding">
+        <div id="sliding" class="sliding">
             <span> faster.</span>
             <span> cheaper.</span>
             <span> friendlier.</span>
@@ -55,6 +56,22 @@
     </div>
 </div>
 <script>
+    window.onload = function () {
+        //Start animations on load
+        var nodes = document.getElementById("sliding").childNodes;
+        for (var i = 0; i < nodes.length; i++) {
+            if (nodes[i].nodeType !== 1) continue;
+            nodes[i].classList.add("sliding-animation");
+        }
+
+        var buttons = document.getElementsByClassName("button");
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener('click', function (event) {
+                event.currentTarget.classList.toggle('hover');
+            });
+        }
+    };
+
     //    (function (i, s, o, g, r, a, m) {
     //        i['GoogleAnalyticsObject'] = r;
     //        i[r] = i[r] || function () {
